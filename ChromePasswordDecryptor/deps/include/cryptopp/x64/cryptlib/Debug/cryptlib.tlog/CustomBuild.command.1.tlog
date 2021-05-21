@@ -1,0 +1,11 @@
+^C:\USERS\ALBER\DESKTOP\PC\PROGRAMMING\C++\CHROMEPASSWORDDECRYPTOR\DEPS\INCLUDE\CRYPTOPP\ADHOC.CPP.PROTO
+if not exist adhoc.cpp copy "C:\Users\alber\Desktop\PC\Programming\C++\ChromePasswordDecryptor\deps\include\cryptopp\adhoc.cpp.proto" adhoc.cpp
+        echo: >> adhoc.cpp.copied
+^C:\USERS\ALBER\DESKTOP\PC\PROGRAMMING\C++\CHROMEPASSWORDDECRYPTOR\DEPS\INCLUDE\CRYPTOPP\RDRAND.ASM
+ml64.exe /c /nologo /D_M_X64 /W3 /Cx /Zi /Fo"x64\cryptlib\Debug\rdrand-x64.obj" "C:\Users\alber\Desktop\PC\Programming\C++\ChromePasswordDecryptor\deps\include\cryptopp\rdrand.asm"
+^C:\USERS\ALBER\DESKTOP\PC\PROGRAMMING\C++\CHROMEPASSWORDDECRYPTOR\DEPS\INCLUDE\CRYPTOPP\RDSEED.ASM
+ml64.exe /c /nologo /D_M_X64 /W3 /Cx /Zi /Fo"x64\cryptlib\Debug\rdseed-x64.obj" "C:\Users\alber\Desktop\PC\Programming\C++\ChromePasswordDecryptor\deps\include\cryptopp\rdseed.asm"
+^C:\USERS\ALBER\DESKTOP\PC\PROGRAMMING\C++\CHROMEPASSWORDDECRYPTOR\DEPS\INCLUDE\CRYPTOPP\X64DLL.ASM
+ml64.exe /c /nologo /D_M_X64 /W3 /Zi /Fo"x64\cryptlib\Debug\x64dll.obj" "C:\Users\alber\Desktop\PC\Programming\C++\ChromePasswordDecryptor\deps\include\cryptopp\x64dll.asm"
+^C:\USERS\ALBER\DESKTOP\PC\PROGRAMMING\C++\CHROMEPASSWORDDECRYPTOR\DEPS\INCLUDE\CRYPTOPP\X64MASM.ASM
+ml64.exe /c /nologo /D_M_X64 /W3 /Zi /Fo"x64\cryptlib\Debug\x64masm.obj" "C:\Users\alber\Desktop\PC\Programming\C++\ChromePasswordDecryptor\deps\include\cryptopp\x64masm.asm"
